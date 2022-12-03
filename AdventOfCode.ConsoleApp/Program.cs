@@ -6,10 +6,8 @@ namespace AdventOfCode.ConsoleApp
     {
         private static void Main(string[] args)
         {
-            _2022.Day02.Execute();
             while (true)
             {
-
                 Console.Write("Input year: ");
                 var year = int.Parse(Console.ReadLine() ?? string.Empty);
                 Console.Write("Input day: ");
