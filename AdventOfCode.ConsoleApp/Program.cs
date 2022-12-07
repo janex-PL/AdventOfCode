@@ -6,6 +6,7 @@ namespace AdventOfCode.ConsoleApp
     {
         private static void Main(string[] args)
         {
+            _2022.Day04.Execute();
             while (true)
             {
                 Console.Write("Input year: ");

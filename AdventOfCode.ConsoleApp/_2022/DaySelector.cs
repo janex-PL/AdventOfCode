@@ -12,6 +12,7 @@ namespace AdventOfCode.ConsoleApp._2022
                 1 => Day01.Execute,
                 2 => Day02.Execute,
                 3 => Day03.Execute,
+                4 => Day04.Execute,
                 _ => throw new ArgumentOutOfRangeException(nameof(day))
             };
             entryPoint();
