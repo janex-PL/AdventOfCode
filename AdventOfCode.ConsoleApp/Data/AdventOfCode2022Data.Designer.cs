@@ -345,6 +345,7 @@ namespace AdventOfCode.ConsoleApp.Data {
         }
         
         /// <summary>
+<<<<<<< HEAD
         ///   Looks up a localized string similar to [P]     [C]         [M]            
         ///[D]     [P] [B]     [V] [S]        
         ///[Q] [V] [R] [V]     [G] [B]        
@@ -364,6 +365,9 @@ namespace AdventOfCode.ConsoleApp.Data {
         ///move 3 from 6 to 4
         ///move 6 from 1 to 5
         ///move 14 from 1 to [rest of string was truncated]&quot;;.
+=======
+        ///   Looks up a localized string similar to .
+>>>>>>> b9a2da8e572c54a597ca80ffa37aae82d8c0e4fe
         /// </summary>
         public static string _5 {
             get {
@@ -372,7 +376,11 @@ namespace AdventOfCode.ConsoleApp.Data {
         }
         
         /// <summary>
+<<<<<<< HEAD
         ///   Looks up a localized string similar to cbhbmmqnmmqvqfqgqcqmmtvvvdsvscvssmfmhfmhhgdgcclhlnnvmnvmnnwngnqggqlqhhbqbfbvffcpfcfpcpmcppsgssvcvmmdwmwsmwswnwvnvvtgvgfgqqnlltgllpplhpllrnrwrtrzrlrzllpnlpnplnlwnnzfztzcchczctcbbpwpbbfhhqllgrllnnghnnlnznzzlqqmggqbgbjjlnlnjllwlnwnjnbjnnhhcddgmdmqmllfjllddmgmpggtvvqqwmmhcmmjpjdpdqqnhhqbhhscstsvttbwtwdtwwjffvccrwrvvnqqtwwhgwhwthwthhvshsfsjstshthqqdfdhdqhqrqggfffvhffhbbwtbtvtwvvwgvvjjjvtjvvlmlmtmztmthmhttjwwmqqjffhvhqvvrddbsbfbgffmcfffqqfzzgmggzvggbjjmccftcftfnttqqjzjdzdrrgvgsgvvlqvlqqlplnnjccjqcjcgjgfjgjlgjjzhh [rest of string was truncated]&quot;;.
+=======
+        ///   Looks up a localized string similar to .
+>>>>>>> b9a2da8e572c54a597ca80ffa37aae82d8c0e4fe
         /// </summary>
         public static string _6 {
             get {
@@ -381,6 +389,7 @@ namespace AdventOfCode.ConsoleApp.Data {
         }
         
         /// <summary>
+<<<<<<< HEAD
         ///   Looks up a localized string similar to $ cd /
         ///$ ls
         ///dir fnsvfbzt
@@ -427,6 +436,9 @@ namespace AdventOfCode.ConsoleApp.Data {
         ///$ cd shzgg
         ///$ ls
         ///18 [rest of string was truncated]&quot;;.
+=======
+        ///   Looks up a localized string similar to .
+>>>>>>> b9a2da8e572c54a597ca80ffa37aae82d8c0e4fe
         /// </summary>
         public static string _7 {
             get {
