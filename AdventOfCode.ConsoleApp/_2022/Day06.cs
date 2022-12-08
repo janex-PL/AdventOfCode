@@ -7,6 +7,7 @@ public class Day06
     public static void Execute()
     {
         var data = DataProvider.GetData(2022, 6);
+        Console.WriteLine("Advent of Code 2022 / Day 6");
         Console.WriteLine($"First marker sized 4 after {GetCharCountForFirstMarker(data,4)}");
         Console.WriteLine($"First marker sized 14 after {GetCharCountForFirstMarker(data,14)}");
     }

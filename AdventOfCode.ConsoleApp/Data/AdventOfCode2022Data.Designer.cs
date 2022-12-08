@@ -345,7 +345,6 @@ namespace AdventOfCode.ConsoleApp.Data {
         }
         
         /// <summary>
-<<<<<<< HEAD
         ///   Looks up a localized string similar to [P]     [C]         [M]            
         ///[D]     [P] [B]     [V] [S]        
         ///[Q] [V] [R] [V]     [G] [B]        
@@ -365,9 +364,6 @@ namespace AdventOfCode.ConsoleApp.Data {
         ///move 3 from 6 to 4
         ///move 6 from 1 to 5
         ///move 14 from 1 to [rest of string was truncated]&quot;;.
-=======
-        ///   Looks up a localized string similar to .
->>>>>>> b9a2da8e572c54a597ca80ffa37aae82d8c0e4fe
         /// </summary>
         public static string _5 {
             get {
@@ -376,11 +372,7 @@ namespace AdventOfCode.ConsoleApp.Data {
         }
         
         /// <summary>
-<<<<<<< HEAD
         ///   Looks up a localized string similar to cbhbmmqnmmqvqfqgqcqmmtvvvdsvscvssmfmhfmhhgdgcclhlnnvmnvmnnwngnqggqlqhhbqbfbvffcpfcfpcpmcppsgssvcvmmdwmwsmwswnwvnvvtgvgfgqqnlltgllpplhpllrnrwrtrzrlrzllpnlpnplnlwnnzfztzcchczctcbbpwpbbfhhqllgrllnnghnnlnznzzlqqmggqbgbjjlnlnjllwlnwnjnbjnnhhcddgmdmqmllfjllddmgmpggtvvqqwmmhcmmjpjdpdqqnhhqbhhscstsvttbwtwdtwwjffvccrwrvvnqqtwwhgwhwthwthhvshsfsjstshthqqdfdhdqhqrqggfffvhffhbbwtbtvtwvvwgvvjjjvtjvvlmlmtmztmthmhttjwwmqqjffhvhqvvrddbsbfbgffmcfffqqfzzgmggzvggbjjmccftcftfnttqqjzjdzdrrgvgsgvvlqvlqqlplnnjccjqcjcgjgfjgjlgjjzhh [rest of string was truncated]&quot;;.
-=======
-        ///   Looks up a localized string similar to .
->>>>>>> b9a2da8e572c54a597ca80ffa37aae82d8c0e4fe
         /// </summary>
         public static string _6 {
             get {
@@ -389,7 +381,6 @@ namespace AdventOfCode.ConsoleApp.Data {
         }
         
         /// <summary>
-<<<<<<< HEAD
         ///   Looks up a localized string similar to $ cd /
         ///$ ls
         ///dir fnsvfbzt
@@ -436,13 +427,24 @@ namespace AdventOfCode.ConsoleApp.Data {
         ///$ cd shzgg
         ///$ ls
         ///18 [rest of string was truncated]&quot;;.
-=======
-        ///   Looks up a localized string similar to .
->>>>>>> b9a2da8e572c54a597ca80ffa37aae82d8c0e4fe
         /// </summary>
         public static string _7 {
             get {
                 return ResourceManager.GetString("7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 211332213033101124130110410025404035324540506465522424325025442423205322144201114032433102223133301
+        ///311023320242030112033354205533003100224166354233554634221041635230051410343235342432112434034030100
+        ///001223204433022013103305410222315554032366506021405002315044463420051033302201255133143124420412122
+        ///013132233012344225535033304112253201303421563422623305021204605543621044544210352330412212401012131
+        ///123203213200414113431324051024435265606056206220330353405664413252121241340014021504043322022404322
+        ///3003143 [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string _8 {
+            get {
+                return ResourceManager.GetString("8", resourceCulture);
             }
         }
     }

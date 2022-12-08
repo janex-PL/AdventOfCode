@@ -10,7 +10,7 @@ public class Day07
     public static void Execute()
     {
         var data = DataProvider.GetData(2022, 7);
-
+        Console.WriteLine("Advent of Code 2022 / Day 7");
         Console.WriteLine($"Total filesystem size: {GetTotalSize(data)}");
         Console.WriteLine($"Size of directory to be deleted: {GetMinimumDirectorySize(data)}");
     }
