@@ -10,6 +10,7 @@ public class Day08
     public static void Execute()
     {
         var data = DataProvider.GetData(2022, 8);
+        Console.WriteLine("Advent of Code 2022 / Day 8");
         Console.WriteLine($"Total visible trees {GetTotalVisibleTrees(data)}");
         Console.WriteLine($"Highest scenic score {GetHighestScenicScore(data)}");
     }
@@ -19,7 +20,7 @@ public class Day08
 
     private static int GetHighestScenicScore(string data)
     {
-        var trees = ParseData(data);
+        List<List<int>> trees = data.Split("\r\n").Select(x => x.Select(y => int.Parse(y.ToString())).ToList()).ToList();
 
         var rows = trees.Count;
         var columns = trees.First().Count;
@@ -101,7 +102,7 @@ public class Day08
 
     private static int GetTotalVisibleTrees(string data)
     {
-        var trees = ParseData(data);
+        var trees = data.Split("\r\n").Select(x => x.Select(y => int.Parse(y.ToString())).ToList()).ToList();
 
         var rows = trees.Count;
         var columns = trees.First().Count;

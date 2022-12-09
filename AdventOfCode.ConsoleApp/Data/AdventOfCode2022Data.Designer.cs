@@ -447,5 +447,116 @@ namespace AdventOfCode.ConsoleApp.Data {
                 return ResourceManager.GetString("8", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to L 1
+        ///D 2
+        ///L 2
+        ///U 2
+        ///D 2
+        ///U 2
+        ///D 1
+        ///R 1
+        ///U 1
+        ///R 1
+        ///L 2
+        ///R 1
+        ///U 1
+        ///R 2
+        ///L 1
+        ///D 2
+        ///R 2
+        ///L 2
+        ///D 1
+        ///U 2
+        ///R 2
+        ///L 1
+        ///U 2
+        ///D 2
+        ///U 2
+        ///D 2
+        ///L 1
+        ///R 2
+        ///L 1
+        ///R 1
+        ///L 1
+        ///D 2
+        ///L 1
+        ///U 1
+        ///L 2
+        ///U 1
+        ///L 2
+        ///R 2
+        ///D 1
+        ///L 2
+        ///R 1
+        ///D 1
+        ///U 1
+        ///L 1
+        ///U 2
+        ///D 2
+        ///L 1
+        ///U 1
+        ///R 2
+        ///D 1
+        ///L 1
+        ///U 1
+        ///R 2
+        ///D 1
+        ///R 2
+        ///D 2
+        ///U 2
+        ///R 2
+        ///U 2
+        ///R 1
+        ///L 1
+        ///R 1
+        ///L 1
+        ///D 1
+        ///U 1
+        ///R 2
+        ///D 2
+        ///L 2
+        ///U 1
+        ///D 1
+        ///R 1
+        ///U 1
+        ///L 1
+        ///D 2
+        ///U 2
+        ///D 1
+        ///L 2
+        ///U 1
+        ///D 1
+        ///L 2
+        ///U 1
+        ///R 2
+        ///D 1
+        ///L 1
+        ///R 1
+        ///L 1
+        ///D 1
+        ///L 1
+        ///R 1
+        ///L 2
+        ///R 2
+        ///D 1
+        ///R 2
+        ///D 1
+        ///L 1
+        ///D 1
+        ///L 2
+        ///R 2
+        ///U 2
+        ///L 2
+        ///R 1
+        ///U 2
+        ///R  [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string _9 {
+            get {
+                return ResourceManager.GetString("9", resourceCulture);
+            }
+        }
     }
 }
