@@ -160,6 +160,124 @@ namespace AdventOfCode.ConsoleApp.Data {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to noop
+        ///addx 25
+        ///addx -5
+        ///addx -14
+        ///addx 4
+        ///noop
+        ///addx 2
+        ///addx 3
+        ///noop
+        ///noop
+        ///noop
+        ///noop
+        ///addx 3
+        ///addx 5
+        ///addx 2
+        ///noop
+        ///noop
+        ///addx 5
+        ///noop
+        ///noop
+        ///noop
+        ///addx 1
+        ///addx 2
+        ///addx 5
+        ///addx -40
+        ///addx 5
+        ///noop
+        ///addx 26
+        ///addx -20
+        ///addx -3
+        ///addx 2
+        ///noop
+        ///addx -4
+        ///addx 9
+        ///addx 5
+        ///addx 2
+        ///addx 11
+        ///addx -10
+        ///addx 2
+        ///addx 5
+        ///addx 2
+        ///addx 5
+        ///noop
+        ///noop
+        ///noop
+        ///addx -31
+        ///addx 32
+        ///addx -37
+        ///addx 1
+        ///addx 8
+        ///addx 13
+        ///addx -15
+        ///addx 4
+        ///noop
+        ///addx 5
+        ///noop
+        ///addx 3
+        ///addx -2
+        ///addx 4
+        ///addx 1
+        ///addx 4
+        ///addx -14
+        ///addx 15
+        ///addx 4
+        ///noop
+        ///noop [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string _10 {
+            get {
+                return ResourceManager.GetString("10", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Monkey 0:
+        ///  Starting items: 78, 53, 89, 51, 52, 59, 58, 85
+        ///  Operation: new = old * 3
+        ///  Test: divisible by 5
+        ///    If true: throw to monkey 2
+        ///    If false: throw to monkey 7
+        ///
+        ///Monkey 1:
+        ///  Starting items: 64
+        ///  Operation: new = old + 7
+        ///  Test: divisible by 2
+        ///    If true: throw to monkey 3
+        ///    If false: throw to monkey 6
+        ///
+        ///Monkey 2:
+        ///  Starting items: 71, 93, 65, 82
+        ///  Operation: new = old + 5
+        ///  Test: divisible by 13
+        ///    If true: throw to monkey 5
+        ///    If false: throw to monkey 4
+        ///
+        ///Monkey 3:
+        ///  St [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string _11 {
+            get {
+                return ResourceManager.GetString("11", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to abcccccccaaaaaaaaccccccccccaaaaaaccccccaccaaaaaaaccccccaacccccccccaaaaaaaaaaccccccccccccccccccccccccccccccccaaaaa
+        ///abcccccccaaaaaaaaacccccccccaaaaaacccccaaacaaaaaaaaaaaccaacccccccccccaaaaaaccccccccccccccccccccccccccccccccccaaaaa
+        ///abcccccccaaaaaaaaaaccccccccaaaaaacaaacaaaaaaaaaaaaaaaaaaccccccccccccaaaaaaccccccccccccccaaacccccccccccccccccaaaaa
+        ///abaaacccccccaaaaaaacccccccccaaacccaaaaaaaaaaaaaaaaaaaaaaaaacccccccccaaaaaaccccccccccccccaaacccccccccccccccccaaaaa
+        ///abaaaaccccccaaaccccccccccccccccccccaaaaaaaaacaaaacac [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string _12 {
+            get {
+                return ResourceManager.GetString("12", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to A X
         ///A Z
         ///A Z
